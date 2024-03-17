@@ -1,0 +1,11 @@
+Model Information:
+* title:	Food & Cook Bench
+* source:	https://sketchfab.com/3d-models/food-cook-bench-01510c100fe940d5b5999fd028d2c6bf
+* author:	gozdemrl (https://sketchfab.com/gozdemrl)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Food & Cook Bench" (https://sketchfab.com/3d-models/food-cook-bench-01510c100fe940d5b5999fd028d2c6bf) by gozdemrl (https://sketchfab.com/gozdemrl) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

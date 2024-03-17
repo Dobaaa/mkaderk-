@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kitchen Tools
+* source:	https://sketchfab.com/3d-models/kitchen-tools-417e3873fcb34f7ab9744506d7bcc838
+* author:	anybody (https://sketchfab.com/anybody)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kitchen Tools" (https://sketchfab.com/3d-models/kitchen-tools-417e3873fcb34f7ab9744506d7bcc838) by anybody (https://sketchfab.com/anybody) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

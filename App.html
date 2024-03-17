@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ابحث عن مقاديرك</title>
+    <!--normlize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- BootStrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Neative css file -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--script for 3d models-->
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <!--start of  navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+          href="index.html"
+        >
+          <img src="images/shopping-bag-icon.png" alt="site icon" />
+          <span class="text-uppercase fw-bold ms-2">مقاديرك</span>
+        </a>
+
+        <div class="order-lg-2 nav-btns">
+          <button type="button" class="btn position-relative">
+            <input
+              type="search"
+              name="search"
+              id=""
+              placeholder="...ابحث"
+              class="text-end search-input"
+            />
+            <i class="fa fa-search"></i>
+          </button>
+          <button type="button" class="btn position-relative">
+            <i class="fa fa-heart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+              >2</span
+            >
+          </button>
+        </div>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="index.html"
+                >الرئيسية</a
+              >
+            </li>
+
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="blog.html"
+                >المقالات</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="about.html"
+                >اعرف عنا</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2 border-0">
+              <a
+                class="nav-link text-uppercase text-dark active"
+                href="App.html"
+                >ابحث عن مقاديرك</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <div id="chat-window" class="pt-5 mt-5">
+      <div class="main-title">CHAT BOT USING CHAT-GPT</div>
+      <div id="chat-messages"></div>
+      <form id="chat-form">
+        <input
+          type="text"
+          id="chat-input"
+          autocomplete="off"
+          placeholder="Type your message here"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+    <script src="js/App.js"></script>
+  </body>
+</html>

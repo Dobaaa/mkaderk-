@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مقالات</title>
+
+    <!--normlize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- BootStrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Neative css file -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--script for 3d models-->
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <!--start of  navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+          href="index.html"
+        >
+          <img src="images/shopping-bag-icon.png" alt="site icon" />
+          <span class="text-uppercase fw-bold ms-2">مقاديرك</span>
+        </a>
+
+        <div class="order-lg-2 nav-btns">
+          <button type="button" class="btn position-relative">
+            <input
+              type="search"
+              name="search"
+              id=""
+              placeholder="...ابحث"
+              class="text-end search-input"
+            />
+            <i class="fa fa-search"></i>
+          </button>
+          <button type="button" class="btn position-relative">
+            <i class="fa fa-heart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+              >2</span
+            >
+          </button>
+        </div>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="index.html"
+                >الرئيسية</a
+              >
+            </li>
+
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark active" href="blog.html"
+                >المقالات</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="about.html"
+                >اعرف عنا</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2 border-0">
+              <a class="nav-link text-uppercase text-dark" href="App.html"
+                >ابحث عن مقاديرك</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- start blog area -->
+    <div class="blog-area">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-5">
+            <div class="blog-txt text-center">
+              <h1 id="txt-one" class="pb-5 fw-bold"></h1>
+              <p id="txt-two" class="pb-5 text-white"></p>
+              <input  type="button" class="btn bg-primary more" value="المزيد" />
+            </div>
+          </div>
+          <div class="col-md-7 blog-img">
+            <model-viewer
+              alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+              src="models/eye/scene.gltf"
+              style="width: 100%; height: 600px"
+              class="kitchen"
+              shadow-intensity="1"
+              camera-controls
+              touch-action="pan-y"
+            ></model-viewer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end  blog area -->
+
+    <!-- start artict area -->
+    <div class="art ">
+      <div class="container pt-5 pb-5">
+ <div class="flip-card ">
+      <div class="flip-card-front ">
+        <div class="inner">
+         <i class="fa-solid fa-kitchen-set icon"></i>
+          <h3> فن الطبخ</h3>
+          <p>
+           إن الطبخ مثل الرسم أو كتابة أغنية مثلما يوجد الكثير من التفاصيل و الألوان، يوجد بالطبخ العديد من النكهات لكل ثقافة
+          </p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="inner">
+          <i class="fa-brands fa-searchengin"></i>
+          <h3> أقراء المزيد</h3>
+          <p>
+            إن فن الطبخ علم تحضير الطعام من الممارسة قديمة، من وقت الإنسان البدائي وكانت هواية الطبخ
+          </p>
+        </div>
+      </div>
+    </div>
+ <div class="flip-card ">
+      <div class="flip-card-front ">
+        <div class="inner">
+          <i class="fa-solid fa-fire-burner icon"></i>
+          <h3>طرق الطبخ الأساسية</h3>
+          <p>
+            والقلى هذا يعني طهي طعامك بالدهون و يعتبر القلي من أسرع طرق طهي الطعام ، حيث تتراوح درجات الحرارة بين 175 و 225 درجة مئوية
+          </p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="inner">
+          <i class="fa-brands fa-searchengin"></i>
+          <h3>أقراء المزيد</h3>
+          <p>
+           هذه طريقة طهي سريعة وجافة وساخنة للغاية، حيث يتم وضع الطعام تحت حرارة مشعة شديدة، قبل الشوي يتم تتبيل الطعام و تركة لمدة لا تقل عن ساعتين، وهماك طريقة أخرى 
+          </p>
+        </div>
+      </div>
+    </div>
+ <div class="flip-card ">
+      <div class="flip-card-front ">
+        <div class="inner">
+          <i class="fa-solid fa-bowl-rice icon"></i>
+          <h3>احتراف الطبخ</h3>
+          <p>
+    ويظهر تاريخ فن الطبخ فى رسومات المقابر والمنحوتات والبقايا الأثرية التي تعود إلى أكثر من 5000 عام مضت 
+          </p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="inner">
+        <i class="fa-brands fa-searchengin"></i>
+          <h3>أقراء المزيد</h3>
+          <p>
+        في معظم المجتمعات التقليدية تقع مهمة إعداد الطعام اليومي على عاتق النساء في المقام الأول وهناك فوائد الطبخ المنزلي، على الرغم من مشاركة الرجال والنساء بشكل كبير
+          </p>
+        </div>
+      </div>
+    </div>
+ <div class="flip-card ">
+      <div class="flip-card-front ">
+        <div class="inner">
+         <i class="fa-solid fa-cookie-bite icon"></i>
+          <h3>مهنة الطبخ</h3>
+          <p>
+            هناك نوعان من الناس وهم أولئك الذين يحبون الطبخ ويحبون أن يتفننون فيه وهو بالنسبة لهم مثل الهواية وصنع طبق خاص بهم هو مثل اللوحة الفنية
+          </p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="inner">
+        <i class="fa-brands fa-searchengin"></i>
+          <h3>أقراء المزيد</h3>
+          <p>
+           لا أحد يطبخ طبخة واحده،  حتى في أكثر حالاتها عزلة ، فإن الطاهي في المطبخ محاط بأجيال من الطهاة السابقين ونصائح وقوائم الطهاة الحاضرين، وحكم من كتب الطبخ
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-front">
+        <div class="inner">
+          <i class="fa-solid fa-mortar-pestle icon"></i>
+          <h3>الطبخ المنزلي</h3>
+          <p>
+            كان الطبخ المنزلي عملية تتم بشكل غير رسمي في المنزل، وكانت المخابز في الماضي تقدم في كثير من الأحيان خدمة طهي أوعية الطعام التي يقدمها عملائها.!
+          </p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="inner">
+         <i class="fa-brands fa-searchengin"></i>
+          <h3>أقراء المزيد</h3>
+          <p>
+            في الوقت الحاضر أصبح تحضير طعام المصنع شائعًا، حيث يتم تحضير العديد من الأطعمة الجاهزة للأكل وطهيها في المصانع على يد الطهاة المنزليين باستخدام مزيج من الأطعمة المصنعة
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-front">
+        <div class="inner">
+          <i class="fa-solid fa-burger icon"></i>
+          <h3>مفهوم الطبخ</h3>
+          <p>
+          الطبخ هو عبارةٌ عن عمليةٍ يتمّ من خلالها دمج الأطعمة، وإضافة البهارات، والتوابل والمنكهات المختلفة
+          </p>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <div class="inner">
+         <i class="fa-brands fa-searchengin"></i>
+          <h3>أقراء المزيد</h3>
+          <p>
+           أنّ الطريقة المتبعة في الطبخ هي التي تؤثر تأثيراً مباشراً على نكهة الطعام، فنكهة الشوي تحتلف مثلاً عن نكهة السلق، وتختلف أيضاً عن القلي.
+          </p>
+        </div>
+      </div>
+    </div>
+      </div>
+          
+  
+    </div>
+    <!-- end  artict area -->
+    
+    <!--start footer area-->
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span class="fw-bold ps-5">Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div class=" pe-5">
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f" style="color: #3b5998"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter" style="color: #55acee"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google" style="color: #f90101"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram" style="color: #406e94"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin" style="color: #007bb6"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github" style="color: #181616"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>مقاديرك
+              </h6>
+              <p>
+                تسهيل عملية الطبخ وتوفير مصدر موثوق للوصفات والمقادير للأشخاص
+                الذين يهتمون بالطبخ ويرغبون في تجربة وصفات جديدةوشهية.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="fw-bold mb-4">خدمات</h6>
+              <p>
+                <a href="#!" class="text-reset"> المقادير</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">معلومات</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">استفسرات</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">صفحات مفيده</h6>
+              <p>
+                <a href="https://www.justfood.tv/!" class="text-reset"
+                  >وصفات الطبخ
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://www.facebook.com/Cooking.Recipes.Arabic/?locale=ar_AR"
+                  class="text-reset"
+                  >أطيب طبخة</a
+                >
+              </p>
+              <p>
+                <a href="https://www.atyabtabkha.com/" class="text-reset">
+                  طبخات عربية</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">تواصل معنا</h6>
+              <p>
+                <i class="fas fa-home me-3 text-secondary"></i> Alexandria, King
+                Univercity, EG
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                elhwtdoba@gamil.com
+              </p>
+              <p>
+                <i class="fas fa-phone me-3 text-secondary"></i> +2 01211998934
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.025)"
+      >
+        © 2024 Copyright:
+        <a id="copy" class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >Dobaa</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+     
+    <!-- end footer-->
+    <!--scripts -->
+    <!--native js code -->
+    <script src="js/blog.js"></script>
+    <!--Jquery-->
+    <script src="js/jquery-3.7.1.js"></script>
+    <!--BootStrap js -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kitchen Set
+* source:	https://sketchfab.com/3d-models/kitchen-set-b73de97de2bd41898a3f16fc4b3d7aed
+* author:	Superglitch3D (https://sketchfab.com/USERGG)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kitchen Set" (https://sketchfab.com/3d-models/kitchen-set-b73de97de2bd41898a3f16fc4b3d7aed) by Superglitch3D (https://sketchfab.com/USERGG) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

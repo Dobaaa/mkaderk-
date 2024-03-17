@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cleaver
+* source:	https://sketchfab.com/3d-models/cleaver-8b22e0a50d0343dca6bdb7b9c33e5d1a
+* author:	Nathalie Michel (https://sketchfab.com/nathalie.michel)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cleaver" (https://sketchfab.com/3d-models/cleaver-8b22e0a50d0343dca6bdb7b9c33e5d1a) by Nathalie Michel (https://sketchfab.com/nathalie.michel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
