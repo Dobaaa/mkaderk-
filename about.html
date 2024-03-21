@@ -3,23 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>اعرف عنا</title>
-    <!--normlize -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <!-- BootStrap css file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="css/all.min.css" />
-    <!-- Neative css file -->
-    <link rel="stylesheet" href="css/about.css" />
-
-    <!--google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cherry+Swash:wght@400;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <title>اعرف عنا</title>
   </head>
   <body>
     <div id="main">
@@ -30,7 +23,7 @@
             href="index.html"
           >
             <img src="images/shopping-bag-icon.png" alt="site icon" />
-            <span class="text-uppercase fw-bold ms-2">مَقَادِيرُكَ</span>
+            <span class="text-uppercase fw-bold ms-2">مقاديرك</span>
           </a>
 
           <div class="order-lg-2 nav-btns">
@@ -47,7 +40,7 @@
             <button type="button" class="btn position-relative">
               <i class="fa fa-heart"></i>
               <span
-                class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+                class="position-absolute top-0 start-100 translate-middle badge"
                 >2</span
               >
             </button>
@@ -65,7 +58,9 @@
           <div class="collapse navbar-collapse order-lg-1" id="navMenu">
             <ul class="navbar-nav mx-auto text-center">
               <li class="nav-item px-2 py-2">
-                <a class="nav-link text-uppercase text-dark" href="index.html"
+                <a
+                  class="nav-link text-uppercase text-dark active"
+                  href="index.html"
                   >الرئيسية</a
                 >
               </li>
@@ -76,9 +71,7 @@
                 >
               </li>
               <li class="nav-item px-2 py-2">
-                <a
-                  class="nav-link text-uppercase text-dark active"
-                  href="about.html"
+                <a class="nav-link text-uppercase text-dark" href="about.html"
                   >اعرف عنا</a
                 >
               </li>
@@ -92,68 +85,13 @@
         </div>
       </nav>
       <div class="one">
-        <h1>مَقَادِيرُكَ</h1>
-        <h2>مِنَصَّةٌ</h2>
-        <model-viewer
-          id="fanta"
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-          src="models/food__cook_bench/scene.gltf"
-          style="width: 600px; height: 550px"
-          class="kitchen"
-          shadow-intensity="1"
-          camera-controls
-          touch-action="pan-y"
-        ></model-viewer>
-        <model-viewer
-          id="orange-cut"
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-          src="models/kitchen_set/scene.gltf"
-          style="width: 600px; height: 400px"
-          class="kitchen"
-          shadow-intensity="1"
-          camera-controls
-          touch-action="pan-y"
-        ></model-viewer>
-        <model-viewer
-          id="orange"
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-          src="models/spatula_spongebob/scene.gltf"
-          style="width: 300px; height: 400px"
-          class="kitchen"
-          shadow-intensity="1"
-          camera-controls
-          touch-action="pan-y"
-        ></model-viewer>
-        <model-viewer
-          id="leaf"
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-          src="models/kitchen_accessories_v1/scene.gltf"
-          style="width: 280px; height: 280px"
-          class="kitchen"
-          shadow-intensity="1"
-          camera-controls
-          touch-action="pan-y"
-        ></model-viewer>
-        <model-viewer
-          id="leaf2"
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-          src="models/salt_and_pepper_shakers/scene.gltf"
-          style="width: 184px; height: 204px"
-          class="kitchen"
-          shadow-intensity="1"
-          camera-controls
-          touch-action="pan-y"
-        ></model-viewer>
-        <model-viewer
-          id="leaf3"
-          alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-          src="models/cleaver/scene.gltf"
-          style="width: 307px; height: 230px"
-          class="kitchen"
-          shadow-intensity="1"
-          camera-controls
-          touch-action="pan-y"
-        ></model-viewer>
+        <h1>مقاديرك</h1>
+        <img id="orange-cut" src="Assets/pngwing.com (1).png alt=" />
+        <img id="fanta" src="Assets/pngwing.com (2).png" alt="" />
+        <img id="orange" src="Assets/pngwing.com (3).png" alt="" />
+        <img id="leaf" src="Assets/pngwing.com (4).png" alt="" />
+        <img id="leaf2" src="Assets/pngwing.com (5).png" alt="" />
+        <img id="leaf3" src="Assets/pngwing.com (6).png" alt="" />
       </div>
       <div class="two">
         <div class="lft-two">
@@ -166,173 +104,40 @@
           </svg>
         </div>
         <div class="rght-two">
-          <h1>مَوْقِعُ مَقَادِيرِكَ</h1>
+          <h1>موقع ويب لمقادير الطعام</h1>
           <p>
-            يعتبر التطبيق وسيلة سهلة ومريحة للعثور على مقادير الطعام المطلوبة.
-            بدلاً من البحث الطويل عبر الكتب أو الإنترنت، يمكن للمستخدمين إدخال
-            معايير البحث الخاصة بهم والحصول على نتائج فورية. توفير الوقت والجهد:
-            يساعد التطبيق في توفير الوقت والجهد الذي يستغرقه البحث عن مقادير
-            الطعام المناسبة. بدلاً من قضاء وقت طويل في البحث والتجربة، يمكن
-            للمستخدمين العثور على مقادير الطعام المناسبة بسرعة وسهولة
+            نصائح غذائية: مقالات ونصائح حول التغذية السليمة وكيفية الحفاظ على
+            نمط حياة صحي. وصفات صحية: مجموعة من الوصفات الصحية والمتنوعة مع
+            مقاديرها وطريقة التحضير. برامج غذائية: خطط غذائية مخصصة لأهداف
+            معينة، مثل خسارة الوزن أو زيادة الوزن أو الحفاظ على الوزن. أدوات
+            حسابية: أدوات تساعد في حساب احتياجات الطاقة اليومية أو البروتينات أو
+            الدهون أو الكربوهيدرات. أخبار وأبحاث: أحدث الأخبار والأبحاث في مجال
+            التغذية والصحة. مقالات تثقيفية: معلومات تثقيفية حول القيم الغذائية
+            وأثرها على الصحة العامة. منتدى للمناقشة: منتدى يتيح للمستخدمين تبادل
+            الخبرات والنصائح في مجال التغذية والصحة.
           </p>
         </div>
       </div>
       <div class="three">
         <div class="card">
-          <img class="lemon lemon1" src="Assets/" alt="" />
-          <img id="cocacola" src="Assets/" alt="" />
-          <h1>CocaCola</h1>
+          <img class="lemon lemon1" src="Assets/pngwing.com (1).png" alt="" />
+          <img id="cocacola" src="Assets/1.png" alt="" />
+          <h1>بحث</h1>
           <button>Buy Now</button>
         </div>
         <div class="card">
-          <h1>Fanta</h1>
+          <h1>بحث</h1>
           <button>Buy Now</button>
         </div>
         <div class="card">
-          <img class="lemon lemon2" src="Asset" alt="" />
-          <img id="pepsi" src="Assets/" alt="" />
-          <h1>Pepsi</h1>
+          <img class="lemon lemon2" src="Assets/pngwing.com (1).png" alt="" />
+          <img id="pepsi" src="Assets/2.png" alt="" />
+          <h1>وصفات</h1>
           <button>Buy Now</button>
         </div>
       </div>
-      <footer class="text-center text-lg-start bg-white text-muted">
-        <!-- Section: Social media -->
-        <section
-          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-        >
-          <!-- Left -->
-          <div class="me-5 d-none d-lg-block">
-            <span class="fw-bold ps-5"
-              >Get connected with us on social networks:</span
-            >
-          </div>
-          <!-- Left -->
-
-          <!-- Right -->
-          <div class="pe-5">
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-facebook-f" style="color: #3b5998"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-twitter" style="color: #55acee"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-google" style="color: #f90101"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-instagram" style="color: #406e94"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-linkedin" style="color: #007bb6"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-github" style="color: #181616"></i>
-            </a>
-          </div>
-          <!-- Right -->
-        </section>
-        <!-- Section: Links  -->
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3 text-secondary"></i>مقاديرك
-                </h6>
-                <p>
-                  تسهيل عملية الطبخ وتوفير مصدر موثوق للوصفات والمقادير للأشخاص
-                  الذين يهتمون بالطبخ ويرغبون في تجربة وصفات جديدةوشهية.
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="fw-bold mb-4">خدمات</h6>
-                <p>
-                  <a href="#!" class="text-reset"> المقادير</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">معلومات</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">استفسرات</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">صفحات مفيده</h6>
-                <p>
-                  <a href="https://www.justfood.tv/!" class="text-reset"
-                    >وصفات الطبخ
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="https://www.facebook.com/Cooking.Recipes.Arabic/?locale=ar_AR"
-                    class="text-reset"
-                    >أطيب طبخة</a
-                  >
-                </p>
-                <p>
-                  <a href="https://www.atyabtabkha.com/" class="text-reset">
-                    طبخات عربية</a
-                  >
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">تواصل معنا</h6>
-                <p>
-                  <i class="fas fa-home me-3 text-secondary"></i> Alexandria,
-                  King Univercity, EG
-                </p>
-                <p>
-                  <i class="fas fa-envelope me-3 text-secondary"></i>
-                  elhwtdoba@gamil.com
-                </p>
-                <p>
-                  <i class="fas fa-phone me-3 text-secondary"></i> +2
-                  01211998934
-                </p>
-              </div>
-              <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-          </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div
-          class="text-center p-4"
-          style="background-color: rgba(0, 0, 0, 0.025)"
-        >
-          © 2024 Copyright:
-          <a
-            id="copy"
-            class="text-reset fw-bold"
-            href="https://mdbootstrap.com/"
-            >Dobaa</a
-          >
-        </div>
-        <!-- Copyright -->
-      </footer>
     </div>
-    <script
-      type="module"
-      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
-    ></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
       integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
@@ -345,9 +150,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
-    <script src="js/about.js"></script>
-    <!--BootStrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/about.js"></script>
   </body>
 </html>
